@@ -1,7 +1,10 @@
 package main
 
 func main() {
-	var median float64
-	median = 29011.5
-	println("La mediana es", median)
+	var mediana float64
+	var media float64
+	media = 23224.9
+	mediana = 29011.5
+	diferencia := media - mediana
+	println("La diferencia es de", diferencia)
 }
